@@ -9,15 +9,11 @@ namespace D_D
     internal class Program
     {
         static void Main(string[] args)
-        {
-          
-                Character myCharacter = new Character();
-                myCharacter.Name = "Slayer";
-                myCharacter.CharacterClass = "Wizard";
+        {          
+                Character myCharacter = new Character();                               
                 myCharacter.Race = "Elf";
                 myCharacter.Level = 99;
-                myCharacter.Birthday = new DateTime(290, 4, 3);
-
+                myCharacter.Birthday = new DateTime(290, 4, 3);               
                 myCharacter.ShowCharacter();
                 Console.WriteLine("Age: " + myCharacter.CalculateAge());
                 Console.ReadLine();           
